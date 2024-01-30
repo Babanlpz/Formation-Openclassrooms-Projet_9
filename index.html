@@ -15,11 +15,56 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="preload">
+
 	
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/script.min.js" defer></script>
+
+	<!-- Open Graph FACEBOOK -->
+	<meta property="og:url" content="https://ninacarducci.fr/">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Portfolio de Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages, et événements d'entreprise">
+	<meta property="og:image" content="https://babanlpz.github.io/Lopez_Esteban_Projet_9/assets/images/nina.png">
+	<meta property="og:title" content="Nina Carducci - Photographe professionnelle situé a Bordeaux">
+
+	<!-- Twitter CARDS -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="ninacarducci.fr">
+	<meta property="twitter:url" content="https://ninacarducci.fr/">
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle situé a Bordeaux">
+	<meta name="twitter:description" content="Portfolio de Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages, et événements d'entreprise">
+	<meta name="twitter:image" content="https://babanlpz.github.io/Lopez_Esteban_Projet_9/assets/images/nina.png">
+
+	<!-- Rich Snippet -->
+	<meta itemprop="name" content="Nina Carducci - Photographe professionnelle situé a Bordeaux">
+	<meta itemprop="description" content="Portfolio de Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages, et événements d'entreprise">
+	<meta itemprop="image" content="https://babanlpz.github.io/Lopez_Esteban_Projet_9/assets/images/nina.png">
+	<meta itemprop="openingHours" content="Mo-fR 09:00-12:00">
+
+	<!-- Donnée Structurée au format JSON-LD -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"image": "https://babanlpz.github.io/Lopez_Esteban_Projet_9/assets/images/nina.png",
+			"telephone": "05 56 67 78 89",
+			"email": "contact@ninacarducci.fr",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33000",
+				"addressCountry": "FR"
+			},
+			"openingHours": "Mo-Fr 09:00-12:00",
+			"priceRange": "€€€",
+			"url": "https://ninacarducci.fr/",
+		}
+	</script>
 </head>
 <body>
 <div class="top-header">
@@ -30,7 +75,7 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Icon instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Icon instagram" width="20" height="20"></a></li>
 		</ul>
 	</div>
 </div>
