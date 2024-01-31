@@ -2,6 +2,7 @@
 <!-- Ajout de la langue -->
 <html lang="fr">
 <head>
+	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Portfolio de Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages, et événements d'entreprise">
@@ -10,7 +11,7 @@
 	<meta name="title" content="Nina Carducci - Photographe professionnelle situé a Bordeaux">
 	<meta property="og:title" content="Nina Carducci - Photographe professionnelle situé a Bordeaux">
 
-	<link rel="stylesheet" media="all" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" media="all" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,9 +65,38 @@
 			"priceRange": "€€€",
 			"url": "https://ninacarducci.fr/",
 		}
+
+		
 	</script>
 </head>
 <body>
+	<!--
+		TODO : 
+		- images < 1mo (attention webp n'est pas pris en compte de partout)
+	    - balise meta : entre 50 et 160 caractères
+		
+		- suppression jquery => refaire la galerie en JS
+		- minification du code JS et CSS
+		- suppression du code inutiles dans Bootstrap (penser à bootstrap SCSS et enlever les imports inutiles)
+		// sass --watch source destination --style compressed
+		- chaque image un attribut alt
+		- corriger la structure des Hn (l'ordre)
+
+		En bonus: rajouter des mots clés par rapport à l'activité du client/ou sa localisation dans les textes
+
+
+		Rapport d'optimisation : (expliquer tout ce que tu as fait)
+		- optimisation des images
+		- optimisation du code
+		- accessibilité
+		- rich snippets
+		- meta (description, title, open graph, etc..)
+		- tout autre modification que tu as faite 
+
+		+ inclure les documents lightouse (PDF + JSON) avec tous indicateurs > 90%
+		+ inclure capture d'écran les rich snippet
+		+ inclure capture d'écran du plugin Wave pour montrer aucune erreur
+	-->
 	<header>
 		<div class="top-header">		
 			<h1 class="name">Nina Carducci</h1>
